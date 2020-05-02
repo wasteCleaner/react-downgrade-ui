@@ -17,7 +17,6 @@ export const DowngradeUIProvider = ({ children, percentage = 50 }: DowngradeUIPr
         const checkDelay = () => {
             const startTime = Number(new Date());
             timer = setTimeout(() => {
-                console.log(Number(new Date()) - startTime - 1000);
                 setDelay(Number(new Date()) - startTime - 1000);
                 checkDelay();
             }, 1000);

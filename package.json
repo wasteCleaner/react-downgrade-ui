@@ -1,6 +1,6 @@
 {
   "name": "react-downgrade-ui",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A tools set to downgrade UI when client has performance issue",
   "main": "dist/index.js",
   "scripts": {
