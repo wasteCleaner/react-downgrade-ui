@@ -1,0 +1,36 @@
+{
+  "name": "react-downgrade-ui",
+  "version": "1.0.0",
+  "description": "A tools set to downgrade UI when client has performance issue",
+  "main": "./build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wasteCleaner/react-downgrade-ui.git"
+  },
+  "keywords": [
+    "react",
+    "ui",
+    "prformance",
+    "optimization"
+  ],
+  "author": "WasteCleaner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wasteCleaner/react-downgrade-ui/issues"
+  },
+  "homepage": "https://github.com/wasteCleaner/react-downgrade-ui#readme",
+  "dependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.34",
+    "awesome-typescript-loader": "^5.2.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
