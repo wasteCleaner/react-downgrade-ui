@@ -1,8 +1,8 @@
 {
   "name": "react-downgrade-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tools set to downgrade UI when client has performance issue",
-  "main": "./build/index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
