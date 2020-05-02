@@ -12,7 +12,6 @@ var DowngradeUIProvider = function (_a) {
         var checkDelay = function () {
             var startTime = Number(new Date());
             timer = setTimeout(function () {
-                console.log(Number(new Date()) - startTime - 1000);
                 setDelay(Number(new Date()) - startTime - 1000);
                 checkDelay();
             }, 1000);
