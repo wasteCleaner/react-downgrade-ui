@@ -13,7 +13,7 @@ export const DowngradeUIProvider = ({ children, percentage = 50 }: DowngradeUIPr
     const [delay, setDelay] = React.useState<number>(0);
 
     React.useEffect(() => {
-        let timer: number | null = null;
+        let timer: number | null = 'abc';
         const checkDelay = () => {
             const startTime = Number(new Date());
             timer = setTimeout(() => {
